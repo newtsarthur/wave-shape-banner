@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html {
+    overflow-x: hidden;
+}
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    box-sizing: border-box;
+    /* background: linear-gradient(180deg, #008aff, #ff137d), url(../img/dubai.png); */
+    background: linear-gradient(180deg, #008aff, #ff137d), url(https://aslanshop.com.br/wp-content/uploads/2019/11/36056895-harry-potter-wallpaper-hd.png);
+    background-blend-mode: screen;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+section .content {
+    max-width: 700px;
+}
+section .content h2 {
+    font-size: 3em;
+    color: #fff;
+    z-index:800;
+}
+section .content p {
+    font-size: 1.2em;
+    color: #fff;
+    z-index:800;
+}
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
